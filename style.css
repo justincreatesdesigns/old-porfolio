@@ -1,3 +1,53 @@
+body {
+  font-family: "SF Pro Display";
+  scroll-behavior: smooth;
+}
+
 .navbar-light .navbar-toggler {
   border: none;
+}
+
+.intro {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.sub-intro {
+  line-height: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 13px;
+  border: none;
+  font-weight: bolder;
+  font-size: 22px;
+  margin: 5px 0;
+}
+
+.btn-purple {
+  background-color: #5C18D4;
+  color: white;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: white;
+}
+
+.desc {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    text-align: left;
+  }
+
+  .btn {
+    width: 250px;
+  }
 }
