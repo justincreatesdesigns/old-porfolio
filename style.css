@@ -1,6 +1,5 @@
-body {
+* {
   font-family: "SF Pro Display";
-  scroll-behavior: smooth;
 }
 
 .navbar-light .navbar-toggler {
@@ -32,6 +31,10 @@ body {
   margin: 5px 0;
 }
 
+.buttons {
+  margin: 50px 0;
+}
+
 .btn-purple {
   background-color: #5C18D4;
   color: white;
@@ -40,6 +43,19 @@ body {
 .btn-black {
   background-color: #000000;
   color: white;
+}
+
+.submit-btn {
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-size
+}
+
+.btn-blue {
+  background-color: #007bff;
 }
 
 .desc {
@@ -72,6 +88,38 @@ body {
   margin: 30px;
 }
 
+.project-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.project-card-title h1,
+.project-card-link a {
+  color: #50C787;
+}
+
+.project-card-title h1 {
+  font-size: 30px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.project-card-desc p {
+  line-height: 30px;
+  margin: 10px 0;
+}
+
+.project-card-link {
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.project-card-link a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
 
 
 @media only screen and (max-width: 600px) {
