@@ -10,6 +10,10 @@ body {
 .intro {
   margin-top: 90px;
   margin-bottom: 20px;
+}
+
+.intro h1,
+.title h1 {
   font-weight: 700;
 }
 
@@ -40,11 +44,35 @@ body {
 
 .desc {
   font-size: 20px;
+  line-height: 40px;
 }
 
 .bg-main {
   background-color: #D1BCE3;
 }
+
+.about-me {
+  padding: 15px;
+}
+
+.title {
+  margin: 30px 0;
+}
+
+.title h1,
+.desc p {
+  margin: 0px;
+}
+
+.desc {
+  margin-bottom: 30px;
+}
+
+.watermelon-m {
+  margin: 30px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   body {
