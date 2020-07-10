@@ -1,133 +1,130 @@
-* {
-  font-family: "SF Pro Display";
-}
-
-.navbar-light .navbar-toggler {
-  border: none;
-}
-
-.intro {
-  margin-top: 90px;
-  margin-bottom: 20px;
-}
-
-.intro h1,
 .title h1 {
   font-weight: 700;
+  font-size: 50px;
+  margin: 30px 0;
 }
 
-.sub-intro {
-  line-height: 40px;
+.sub-title {
   font-size: 20px;
-  margin-bottom: 20px;
+  line-height: 36px;
 }
 
-.btn {
-  border-radius: 30px;
-  padding: 13px;
-  border: none;
-  font-weight: bolder;
-  font-size: 22px;
-  margin: 5px 0;
+.introduction {
+  text-align: center;
+  margin: 50px 100px;
 }
 
 .buttons {
-  margin: 50px 0;
+  text-align: center;
+}
+
+.main-btn {
+  border: none;
+  border-radius: 40px;
+  padding: 20px;
+  font-weight: bold;
+  width: 200px;
+  margin: 5px;
+  color: #ffffff;
 }
 
 .btn-purple {
-  background-color: #5C18D4;
-  color: white;
+  background-color: #973999;
+}
+
+.btn-purple:hover {
+
+  color: #009CDF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-black:hover {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-black {
   background-color: #000000;
-  color: white;
 }
 
-.submit-btn {
-  border: none;
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 10px 0;
-
+.watermelon-head {
+  margin: 60px;
 }
 
-.btn-blue {
-  background-color: #007bff;
+.details {
+  padding: 170px 140px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .desc {
   font-size: 20px;
-  line-height: 40px;
+  line-height: 36px;
 }
 
-.bg-main {
-  background-color: #D1BCE3;
-}
-
-.about-me {
-  padding: 15px;
-}
-
-.title {
-  margin: 30px 0;
-}
-
-.title h1,
-.desc p {
-  margin: 0px;
-}
-
-.desc {
-  margin-bottom: 30px;
-}
-
-.watermelon-m {
-  margin: 30px;
+.bg-purple {
+  background-color: #973999;
+  color: #ffffff;
 }
 
 .project-card {
+  border-radius: 20px;
+  padding: 24px;
+  width: 525px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 30px;
-  padding: 25px;
 }
 
-.project-card-title h1,
+.project-card-title,
+.project-card-link {
+  color: #009CDF;
+}
+
 .project-card-link a {
-  color: #50C787;
-}
-
-.project-card-title h1 {
-  font-size: 30px;
-  margin: 10px 0;
-  font-weight: bold;
-}
-
-.project-card-desc p {
-  line-height: 30px;
-  margin: 10px 0;
+  text-decoration: none;
 }
 
 .project-card-link {
   text-align: right;
-  font-weight: bold;
-  font-size: 20px;
+  margin: 10px 0;
 }
 
 .project-card-link a:hover {
-  color: #007bff;
-  text-decoration: none;
+  color: #5EBD3E;
+  font-size: 20px;
 }
 
+.contact-me {
+  margin: 60px 0;
+}
 
 @media only screen and (max-width: 600px) {
-  body {
+  .introduction {
     text-align: left;
+    margin: 50px 24px;
   }
 
-  .btn {
-    width: 250px;
+  .title h1 {
+    font-size: 3rem;
+  }
+
+
+  .sub-title {
+    padding: 0px;
+  }
+
+  .details {
+    padding: 24px;
+  }
+
+  .watermelon-head {
+    margin: 20px;
+  }
+
+  .project-card {
+    margin: 20px 0;
+    width: 100%;
   }
 }
