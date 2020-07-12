@@ -2,6 +2,187 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+.intro {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  margin: 30px;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 48px;
+  padding: 20px 0;
+}
+
+.sub-title {
+  font-size: 20px;
+  line-height: 36px;
+  margin: 30px;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.main-btn {
+  color: #ffffff;
+  padding: 20px 60px;
+  border-radius: 40px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+a.project-btn,
+a.resume-btn {
+  text-decoration: none;
+}
+
+.buttons {
+  text-align: center;
+  display: block;
+  padding: 0px 3 00px;
+}
+
+.btns {
+  text-align: center;
+  margin: 30px 5px;
+}
+
+.resume-btn {
+  background-color: black;
+}
+
+.project-btn {
+  background-color: #A16AE8;
+}
+
+.project-btn:hover {
+
+  color: #009CDF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.resume-btn:hover {
+  color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.my-projects {
+  padding: 0 24px;
+}
+
+.my-projects .title {
+  margin: 50px 24px;
+  text-align: left;
+}
+
+.project-card {
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px 0;
+}
+
+.project-card-title,
+.project-card-link {
+  color: #4120A9;
+}
+
+.project-card-link a {
+  text-decoration: none;
+}
+
+.project-card-link {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.project-card-link a:hover {
+  color: #5EBD3E;
+  font-size: 20px;
+}
+
+.bg-purple {
+  background-color: #A16AE8;
+}
+
+#about-me {
+  margin: 200px 0;
+}
+
+.about-me-details {
+  margin: 30px 0;
+  padding: 50px 10px;
+}
+
+.desc {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .intro {
+    text-align: left;
+  }
+
+  .buttons {
+    padding: 0px;
+  }
+
+  .btns {
+    margin: 20px;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .buttons {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .intro {
+    text-align: left;
+  }
+
+  .buttons {
+    padding: 0px;
+  }
+
+  .btns {
+    margin: 30px;
+    float: left;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .buttons {
+    padding: 0 219px;
+  }
+}
+
+/* @media only screen and (min-width: 992px) {
+  .buttons {
+    padding: 300px;
+  }
+} */
+
+/* body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 .title h1 {
   font-weight: 700;
   font-size: 50px;
@@ -27,10 +208,12 @@ body {
   border-radius: 40px;
   padding: 20px;
   font-weight: bold;
-  width: 200px;
   margin: 5px;
+  width: ;
   color: #ffffff;
 }
+
+
 
 .btn-purple {
   background-color: #973999;
@@ -132,6 +315,7 @@ body {
     margin: 20px 0;
     width: 100%;
   }
+
 }
 
 
@@ -146,8 +330,7 @@ body {
   }
 
   .watermelon-head {
-    height: 500px;
-    margin: 0px 170px;
+    margin: 70px;
   }
 
   .sub-title {
@@ -155,11 +338,13 @@ body {
   }
 
   .details {
-    padding: 50px 24px;
+    padding: 110px 24px;
   }
 
   .project-card {
     margin: 20px 0;
     width: 100%;
   }
-}
+
+
+} */

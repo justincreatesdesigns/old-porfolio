@@ -1,54 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="bootstrap.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Justin</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Justin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="intro">
+          <h1 class="title">
+            Welcome to my website
+          </h1>
+          <p class="sub-title">
+            My name is Justin Jay Largado Cabonce and I want to create
+            professional applications, design, and build beautiful interactive
+            websites. I also aspire to develop beautiful and interactive
+            Applications & Design the best UI/UX Interfaces.
+          </p>
         </div>
-      </nav>
+
+        <div class="container buttons">
+          <div class="row">
+            <div class="col-sm-12 col-lg-6">
+              <div class="btns">
+                <a href="#" class="main-btn resume-btn">My Resume</a></div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <div class="btns">
+                <a href="#projects" class="main-btn project-btn">My Projects</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about-me">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <img src="watermelon-head-svgs/watermelon-pack-illustration-03.svg" alt="">
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <div class="about-me-details">
+            <div class="main-title">
+              A little about myself
+            </div>
+            <div class="desc">
+              <p> I am a Filipino born in Singapore. I've been here my whole life
+                learning and experiencing new things each time I get older. I'm
+                usually a very quiet person but once you get to know me I'm quite
+                talkative. I love to go out adventuring, take photos and have a good
+                time. I just wanna live my life to the fullest with no regret.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="projects">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#A16AE8" fill-opacity="1"
+        d="M0,256L26.7,261.3C53.3,267,107,277,160,288C213.3,299,267,309,320,304C373.3,299,427,277,480,266.7C533.3,256,587,256,640,250.7C693.3,245,747,235,800,208C853.3,181,907,139,960,106.7C1013.3,75,1067,53,1120,64C1173.3,75,1227,117,1280,144C1333.3,171,1387,181,1413,186.7L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
+      </path>
+    </svg>
+    <div class="my-projects bg-purple">
+      <div class="main-title color-white">
+        My Projects
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div class="projects">
+            <div class="project-card">
+              <div class="project-card-title">
+                <h1>
+                  PESS Project
+                </h1>
+              </div>
+              <div class="project-card-desc">
+                A school project made in PHP and HTML/CSS. It is a system where
+                the user is able to dispatch patrol cars to incidents inputted in
+                the system.
+              </div>
+              <div class="project-card-link">
+                <a href="https://github.com/jjaaaayyyy/PESS-Project">Go</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="projects">
+            <div class="project-card">
+              <div class="project-card-title">
+                <h1>
+                  First Portfolio
+                </h1>
+              </div>
+              <div class="project-card-desc">
+                A web portfolio that I was tasked to create during my time
+                interning at Habitap as a task list and to also update my previous
+                one which looked out of place. HTML/CSS and Bootsrap.
+              </div>
+              <div class="project-card-link">
+                <a href="https://jjaaaayyyy.github.io/firstportfolio/index.html">Go</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="projects">
+            <div class="project-card">
+              <div class="project-card-title">
+                <h1>
+                  Wedding Website
+                </h1>
+              </div>
+              <div class="project-card-desc">
+                A website based off a web design to practice my bootstrap as
+                suggested by my supervisor at Habitap. HTML/CSS and Bootsrap.
+              </div>
+              <div class="project-card-link">
+                <a href="https://jjaaaayyyy.github.io/wedding-website/index.html">Go</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="container">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#A16AE8" fill-opacity="1"
+        d="M0,32L26.7,69.3C53.3,107,107,181,160,186.7C213.3,192,267,128,320,101.3C373.3,75,427,85,480,128C533.3,171,587,245,640,272C693.3,299,747,277,800,266.7C853.3,256,907,256,960,234.7C1013.3,213,1067,171,1120,133.3C1173.3,96,1227,64,1280,74.7C1333.3,85,1387,139,1413,165.3L1440,192L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
+      </path>
+    </svg>
+  </div>
+
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#A16AE8" fill-opacity="1"
+      d="M0,256L26.7,261.3C53.3,267,107,277,160,288C213.3,299,267,309,320,304C373.3,299,427,277,480,266.7C533.3,256,587,256,640,250.7C693.3,245,747,235,800,208C853.3,181,907,139,960,106.7C1013.3,75,1067,53,1120,64C1173.3,75,1227,117,1280,144C1333.3,171,1387,181,1413,186.7L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
+    </path>
+  </svg>
+  <div class="row">
+    <div class="col-12">
+      <div class="my-projects bg-purple">
+        <div class="main-title color-white">
+          My Projects
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <div class="projects">
+              <div class="project-card">
+                <div class="project-card-title">
+                  <h1>
+                    PESS Project
+                  </h1>
+                </div>
+                <div class="project-card-desc">
+                  A school project made in PHP and HTML/CSS. It is a system where
+                  the user is able to dispatch patrol cars to incidents inputted in
+                  the system.
+                </div>
+                <div class="project-card-link">
+                  <a href="https://github.com/jjaaaayyyy/PESS-Project">Go</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="projects">
+              <div class="project-card">
+                <div class="project-card-title">
+                  <h1>
+                    First Portfolio
+                  </h1>
+                </div>
+                <div class="project-card-desc">
+                  A web portfolio that I was tasked to create during my time
+                  interning at Habitap as a task list and to also update my previous
+                  one which looked out of place. HTML/CSS and Bootsrap.
+                </div>
+                <div class="project-card-link">
+                  <a href="https://jjaaaayyyy.github.io/firstportfolio/index.html">Go</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="projects">
+              <div class="project-card">
+                <div class="project-card-title">
+                  <h1>
+                    Wedding Website
+                  </h1>
+                </div>
+                <div class="project-card-desc">
+                  A website based off a web design to practice my bootstrap as
+                  suggested by my supervisor at Habitap. HTML/CSS and Bootsrap.
+                </div>
+                <div class="project-card-link">
+                  <a href="https://jjaaaayyyy.github.io/wedding-website/index.html">Go</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#A16AE8" fill-opacity="1"
+      d="M0,32L26.7,69.3C53.3,107,107,181,160,186.7C213.3,192,267,128,320,101.3C373.3,75,427,85,480,128C533.3,171,587,245,640,272C693.3,299,747,277,800,266.7C853.3,256,907,256,960,234.7C1013.3,213,1067,171,1120,133.3C1173.3,96,1227,64,1280,74.7C1333.3,85,1387,139,1413,165.3L1440,192L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
+    </path>
+  </svg> -->
+
+
+
+
+  <!-- <div class="container">
+    <div class="about-me">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="watermelon-head-svgs/watermelon-pack-illustration-03.svg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="about-me-details">
+            <h1 class="title">
+              A little about myself
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="container">
       <div class="row">
         <div class="col">
           <div class="introduction">
@@ -70,8 +292,14 @@
       <div class="row">
         <div class="col">
           <div class="buttons">
-            <button class="main-btn btn-purple">My Resume</button>
-            <button class="main-btn btn-black">My Projects</button>
+            <!-- <button type="button" class="main-btn btn-purple" href="#">
+              My Resume
+            </button>
+            <button type="button" class="main-btn btn-black" href="#projects">
+              My Projects
+            </button> 
+            <a class="main-btn btn-black" href="#">My Resume</a>
+            <a class="main-btn btn-purple" href="#projects"> My Projects</a>
           </div>
         </div>
       </div>
@@ -118,7 +346,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="projects">
+          <div class="projects" id="projects">
             <div class="title">
               <h1>My Projects</h1>
             </div>
@@ -196,17 +424,12 @@
           />
         </div>
       </div>
-    </div>
-  </body>
-  <script
-    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"
-  ></script>
-  <script src="bootstrap.js"></script>
+    </div> -->
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="bootstrap.js"></script>
+
 </html>
