@@ -129,6 +129,12 @@ a.resume-btn {
 }
 
 
+.watermelon-img {
+  position: relative;
+  bottom: -85px;
+}
+
+
 @media only screen and (max-width: 600px) {
 
   .intro {
@@ -171,6 +177,14 @@ a.resume-btn {
   .buttons {
     padding: 0 219px;
   }
+
+  .watermelon-img {
+    position: relative;
+    top: -51px;
+    margin: 100px;
+  }
+
+
 }
 
 /* @media only screen and (min-width: 992px) {
