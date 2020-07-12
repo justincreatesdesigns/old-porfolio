@@ -1,3 +1,7 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 .title h1 {
   font-weight: 700;
   font-size: 50px;
@@ -48,11 +52,11 @@
 }
 
 .watermelon-head {
-  margin: 60px;
+  margin: 200px;
 }
 
 .details {
-  padding: 170px 140px;
+  padding: 300px 140px;
 }
 
 .title {
@@ -122,6 +126,36 @@
 
   .watermelon-head {
     margin: 20px;
+  }
+
+  .project-card {
+    margin: 20px 0;
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .introduction {
+    text-align: center;
+    margin: 50px 24px;
+  }
+
+  .title h1 {
+    font-size: 3rem;
+  }
+
+  .watermelon-head {
+    height: 500px;
+    margin: 0px 170px;
+  }
+
+  .sub-title {
+    padding: 0px;
+  }
+
+  .details {
+    padding: 50px 24px;
   }
 
   .project-card {
