@@ -45,12 +45,21 @@ a.resume-btn {
 .buttons {
   text-align: center;
   display: block;
-  padding: 0px 3 00px;
 }
 
 .btns {
   text-align: center;
   margin: 30px 5px;
+}
+
+.btns.btn-1 {
+  position: relative;
+  left: 160px;
+}
+
+.btns.btn-2 {
+  position: relative;
+  right: 160px;
 }
 
 .resume-btn {
@@ -74,12 +83,7 @@ a.resume-btn {
 
 
 .my-projects {
-  padding: 0 24px;
-}
-
-.my-projects .title {
-  margin: 50px 24px;
-  text-align: left;
+  padding: 0 100px;
 }
 
 .project-card {
@@ -120,7 +124,7 @@ a.resume-btn {
 
 .about-me-details {
   margin: 30px 0;
-  padding: 50px 10px;
+  padding: 140px 10px;
 }
 
 .desc {
@@ -149,11 +153,19 @@ a.resume-btn {
     margin: 20px;
     float: left;
   }
+
 }
 
+
 @media only screen and (min-width: 576px) {
-  .buttons {
-    padding: 0px;
+  .btns.btn-1 {
+    position: relative;
+    left: 0px;
+  }
+
+  .btns.btn-2 {
+    position: relative;
+    right: 0px;
   }
 }
 
@@ -171,194 +183,81 @@ a.resume-btn {
     float: left;
   }
 
+  .my-projects.bg-purple {
+    padding: 0px 24px;
+  }
+
+  .btns.btn-1 {
+    position: relative;
+    left: 0px;
+  }
+
+  .btns.btn-2 {
+    position: relative;
+    right: 0px;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-  .buttons {
-    padding: 0 219px;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .title {
+    text-align: center;
   }
 
   .watermelon-img {
-    position: relative;
-    top: -51px;
     margin: 100px;
+    padding: 100px 0;
   }
 
-
-}
-
-/* @media only screen and (min-width: 992px) {
-  .buttons {
-    padding: 300px;
-  }
-} */
-
-/* body {
-  font-family: 'Quicksand', sans-serif;
-}
-
-.title h1 {
-  font-weight: 700;
-  font-size: 50px;
-  margin: 30px 0;
-}
-
-.sub-title {
-  font-size: 20px;
-  line-height: 36px;
-}
-
-.introduction {
-  text-align: center;
-  margin: 50px 100px;
-}
-
-.buttons {
-  text-align: center;
-}
-
-.main-btn {
-  border: none;
-  border-radius: 40px;
-  padding: 20px;
-  font-weight: bold;
-  margin: 5px;
-  width: ;
-  color: #ffffff;
-}
-
-
-
-.btn-purple {
-  background-color: #973999;
-}
-
-.btn-purple:hover {
-
-  color: #009CDF;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.btn-black:hover {
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.btn-black {
-  background-color: #000000;
-}
-
-.watermelon-head {
-  margin: 200px;
-}
-
-.details {
-  padding: 300px 140px;
-}
-
-.title {
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.desc {
-  font-size: 20px;
-  line-height: 36px;
-}
-
-.bg-purple {
-  background-color: #973999;
-  color: #ffffff;
-}
-
-.project-card {
-  border-radius: 20px;
-  padding: 24px;
-  width: 525px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 15px 0;
-}
-
-.project-card-title,
-.project-card-link {
-  color: #009CDF;
-}
-
-.project-card-link a {
-  text-decoration: none;
-}
-
-.project-card-link {
-  text-align: right;
-  margin: 10px 0;
-}
-
-.project-card-link a:hover {
-  color: #5EBD3E;
-  font-size: 20px;
-}
-
-.contact-me {
-  margin: 60px 0;
-}
-
-@media only screen and (max-width: 600px) {
-  .introduction {
-    text-align: left;
-    margin: 50px 24px;
+  .btns.btn-1 {
+    position: relative;
+    left: 0px;
   }
 
-  .title h1 {
-    font-size: 3rem;
-  }
-
-
-  .sub-title {
-    padding: 0px;
-  }
-
-  .details {
-    padding: 24px;
-  }
-
-  .watermelon-head {
-    margin: 20px;
-  }
-
-  .project-card {
-    margin: 20px 0;
-    width: 100%;
+  .btns.btn-2 {
+    position: relative;
+    right: 0px;
   }
 
 }
 
-
-@media only screen and (min-width: 768px) {
-  .introduction {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .title {
     text-align: center;
-    margin: 50px 24px;
   }
 
-  .title h1 {
-    font-size: 3rem;
+  .btns.btn-1 {
+    position: relative;
+    left: 0px;
   }
 
-  .watermelon-head {
-    margin: 70px;
+  .btns.btn-2 {
+    position: relative;
+    right: 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .btns.btn-1 {
+    position: relative;
+    left: 120px;
   }
 
-  .sub-title {
-    padding: 0px;
+  .btns.btn-2 {
+    position: relative;
+    right: 120px;
   }
 
-  .details {
-    padding: 110px 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .btns.btn-1 {
+    position: relative;
+    left: 160px;
   }
 
-  .project-card {
-    margin: 20px 0;
-    width: 100%;
+  .btns.btn-2 {
+    position: relative;
+    right: 160px;
   }
 
-
-} */
+}
