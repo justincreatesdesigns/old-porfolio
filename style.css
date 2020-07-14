@@ -243,7 +243,7 @@ a.resume-btn {
     display: block;
   }
 
-  .social-link-sm-center {
+  .social-link-sm-center li {
     text-align: center;
   }
 }
