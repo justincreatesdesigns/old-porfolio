@@ -175,7 +175,7 @@ a.resume-btn {
   bottom: -85px;
 }
 
-label,
+label.form-label,
 .submit-btn {
   margin: 10px 0;
   display: block;
