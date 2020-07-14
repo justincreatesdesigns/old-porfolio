@@ -234,7 +234,7 @@ th {
 label {
   display: block;
   text-align: left;
-  margin-bottom: 0.5rem;
+  margin: 10px 0;
 }
 
 button {
