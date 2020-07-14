@@ -232,7 +232,8 @@ th {
 }
 
 label {
-  display: inline-block;
+  display: block;
+  text-align: left;
   margin-bottom: 0.5rem;
 }
 
