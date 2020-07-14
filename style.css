@@ -2,6 +2,19 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+nav.navbar.navbar-expand-lg.navbar-light {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+li.nav-item {
+  padding: 0 10px;
+}
+
+li.nav-item:hover {
+  border-bottom: black solid 3px;
+}
+
 .intro {
   margin: 100px 0;
   text-align: center;
@@ -82,11 +95,6 @@ a.resume-btn {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-.my-projects {
-  padding: 0 100px;
-}
-
 .project-card {
   background-color: #ffffff;
   text-align: left;
@@ -119,13 +127,18 @@ a.resume-btn {
   background-color: #A16AE8;
 }
 
-#about-me {
+#about-me,
+#contact-me {
   margin: 200px 0;
 }
 
 .about-me-details {
   margin: 30px 0;
   padding: 140px 10px;
+}
+
+.contact-me-details {
+  text-align: center;
 }
 
 .desc {
