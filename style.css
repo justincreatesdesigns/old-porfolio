@@ -183,7 +183,7 @@ label.form-label,
 }
 
 
-.submit-btn {
+input.submit-btn {
   background-color: #4120A9;
   border: none;
   padding: 10px;
@@ -191,7 +191,7 @@ label.form-label,
   font-weight: bold;
 }
 
-.submit-btn:hover {
+input.submit-btn:hover {
   background-color: #A1A9FE;
 }
 
